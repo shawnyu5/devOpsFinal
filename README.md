@@ -19,3 +19,5 @@ Port forward web address from pod
 Get the default admin password
 
 `kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d`
+
+![argocd_pods](img/argocd_pods.png)
