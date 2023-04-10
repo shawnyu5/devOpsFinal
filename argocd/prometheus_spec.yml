@@ -14,4 +14,6 @@ spec:
     namespace: prometheus
   syncPolicy:
     automated:
+      prune: true
       selfHeal: true
+
