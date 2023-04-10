@@ -67,7 +67,7 @@ configmapReload:
 server:
   ## Prometheus server container name
   ##
-  name: server
+  name: serverrrrr
 
   ## Use a ClusterRole (and ClusterRoleBinding)
   ## - If set to false - we define a RoleBinding in the defined namespaces ONLY
